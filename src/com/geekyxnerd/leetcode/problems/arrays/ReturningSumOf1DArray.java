@@ -59,7 +59,7 @@ public class ReturningSumOf1DArray {
 
     /*
         Optimised Solution: Eliminate the inner loop and used the existing array of nums to store the result
-        Time Complexity: Quadratic time O(n)
+        Time Complexity: Linear time O(n)
         Space complexity: Constant space O(1)
      */
     public int[] runningSumOptimised(int[] nums) {
